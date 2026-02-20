@@ -34,7 +34,7 @@ giochi_ordinati_rating = sorted(
     reverse=True
 )
 
-print("\nTop 20 giochi per rating (min 10.000 voti):\n")
+print("\nTop 20 giochi per rating (minimo 10.000 voti):\n")
 
 for i, gioco in enumerate(giochi_ordinati_rating[:20], start=1):
     print(f"{i}. {gioco['title']} - Rating: {gioco['rating']} - Voti: {gioco['votes']}")
