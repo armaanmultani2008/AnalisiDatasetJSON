@@ -1,10 +1,10 @@
-#Analisi Dataset JSON con Python
+Analisi Dataset JSON con Python
 
-Progetto di analisi di un dataset JSON della classe quarta superiore del corso informatico dell'istituto tecnico I.T.I.S. Castelli. <br>
+Progetto di analisi di un dataset JSON della classe quarta superiore del corso informatico dell'istituto tecnico I.T.I.S. Castelli. <hr>
 Lo scopo è analizzare il dataset scelto attraverso programmazione in linguaggio Python, ad esempio per esplorarne la struttura o per filtrarne i dati. Il dataset è composto da dizionari di cui la key è il link al Playstation Store di ogni gioco, mentre la value è il dizionario degli attributi di ogni gioco. I campi di questo dizionario sono: la stringa title, la lista platforms, il float rating, l'intero votes, la stringa developer, la stringa indicante una data release_date, il float price e la lista di stringhe generi.
-<br>
+<hr>
 Il dataset JSON scelto è il catalogo di giochi Playstation 4 e Playstation 5 ed è stato ricavato da: "https://www.kaggle.com/datasets/evgeny1928/playstation-games-info/data?select=output.json".
-<br>
+<hr>
 In base ai requisiti all'analisi del dataset, sono stati sviluppati diversi blocchi di codice in linguaggio Python:
 - Visualizza la classifica dei 20 giochi col rating più alto con minimo 10.000 voti
 - Visualizza la classifica dei 20 più popolari in base al numero di voti
